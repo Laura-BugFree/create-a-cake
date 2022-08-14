@@ -1,0 +1,175 @@
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+h1, h2{
+    color: #333;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+hr{
+    margin: 0;
+}
+
+p{
+    color: #8f8f8f
+}
+.navbar{
+    margin: 0 0 4.5rem;
+}
+.logo{
+    width: 25%; 
+}
+.nav-item{
+    padding: 0 18px;
+  
+}
+.nav-link{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+.pink-section{
+    background-color:#ffe7f3 ;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 7% 12%;
+}
+
+.container-fluid{
+    padding: 10% 10%;
+}
+
+
+
+/* button trying to figure it out */
+
+/* .btn-custom-color{
+    background-color: #402135;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-container{
+    padding-right: 50%;
+} */
+
+
+/* images */
+.title-img-h1{
+    width: 80%;
+}
+.title-img-container{
+    position: relative;
+    
+}
+.title-img-cake{
+    width: 80%;
+    position: absolute;
+    left: 15%;
+    
+}
+@media (max-width: 1020px){
+    .title-img-cake{
+        position: static;
+        padding-top: 10%;
+    }
+}
+
+/* Features Section */
+.paragraph-text{
+    margin: 80px auto 80px auto;
+    width: 30%;
+}
+/* For Tablet */
+@media (min-width: 500px) and (max-width: 1020px){
+    .paragraph-text{
+        width: 50%;
+    }
+}
+/* For Mobile */
+@media (max-width:500px){
+    .paragraph-text{
+        width:80%
+    }
+}
+
+/* Gallary section */
+.img-padding{
+    padding: 0 2% 2% 0;
+    
+}
+.img-thumbnail{
+    border: 0;
+}
+
+
+#cta h1{
+    padding-bottom: 5%;
+}
+@media(max-width:1020px){
+    #cta h1{
+        font-size: 2.5rem ;
+    }
+}
+
+.btn-custom-color{
+    background-color: #402135;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* footer */
+#footer{
+    padding: 3% 10%;
+}
+@media( max-width: 500px){
+    #footer{
+        padding: 5% 10%;
+    }
+}
+.footer-title{
+    margin-bottom: 2%;
+    color: #402135;
+    font-family: 'Merriweather Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 2.25rem;
+}
+@media( max-width: 500px){
+    .footer-title{
+        font-size: 1.5rem;
+    }
+}
+
+.social-icon{
+    color: #402135;
+    margin: 20px 10px;
+    
+}
+.social-icon:hover{
+    color: #d2d2d2;
+}
+
+.copyright-text{
+    margin-top: 2%;
+}
