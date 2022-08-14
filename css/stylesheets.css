@@ -33,6 +33,7 @@ p{
     font-weight: 300;
 
 }
+
 .pink-section{
     background-color:#ffe7f3 ;
 }
@@ -41,55 +42,26 @@ p{
     background-color: #fff;
 }
 
-/* title section */
-
-#title .container-fluid{
-  padding: 3% 7% 12%;
-}
-
 .container-fluid{
     padding: 10% 10%;
 }
 
+/* title section */
 
 
-/* button trying to figure it out */
 
-/* .btn-custom-color{
-    background-color: #402135;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-.button-container{
-    padding-right: 50%;
-} */
 
+
+#title .container-fluid{
+    padding: 3% 7% 12%;
+  }
 
 /* images */
-.title-img-h1{
+.title-img{
+    margin-top: 50px;
     width: 80%;
 }
-.title-img-container{
-    position: relative;
-    
-}
-.title-img-cake{
-    width: 80%;
-    position: absolute;
-    left: 15%;
-    
-}
-@media (max-width: 1020px){
-    .title-img-cake{
-        position: static;
-        padding-top: 10%;
-    }
-}
+
 
 /* Features Section */
 .paragraph-text{
@@ -126,7 +98,7 @@ p{
 }
 
 
-
+/* CTA Section */
 #cta h1{
     padding-bottom: 5%;
 }
