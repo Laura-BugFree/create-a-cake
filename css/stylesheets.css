@@ -108,6 +108,9 @@ p{
         width:80%
     }
 }
+.card-container{
+    padding: 0% 2% 5%;
+}
 
 /* Gallary section */
 .img-padding{
@@ -117,6 +120,11 @@ p{
 .img-thumbnail{
     border: 0;
 }
+.features-paragraph-text{
+    margin: 0 auto 80px auto;
+    width: 30%;
+}
+
 
 
 #cta h1{
